@@ -1,0 +1,17 @@
+{
+  "name": "my-whatsapp-app",
+  "version": "1.0.0",
+  "description": "WhatsApp Web.js bot with QR browser, auto-reconnect, and persistent session",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "whatsapp-web.js": "^1.22.0",
+    "qrcode": "^1.5.1"
+  }
+}
